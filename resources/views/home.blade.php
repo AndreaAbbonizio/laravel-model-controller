@@ -3,10 +3,10 @@
 
 @section('content')
     <div class="container">
-        <h1>Homepage Movies</h1>
+        <h1 class="homepage">Homepage Movies</h1>
 
         <hr>
 
-        <a href="">Link per i Movies</a>
+        <a href="{{Route('index')}}">Link per i Movies</a>
     </div>
 @endsection

@@ -2,7 +2,7 @@
     <nav>
         <ul class="link-navbar">
             <li>
-                <a href="">Home</a>
+                <a href="{{Route('home')}}">Home</a>
             </li>
             <li>
                 <a href="{{Route('index')}}">Movies</a>
